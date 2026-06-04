@@ -1,3 +1,6 @@
+import subprocess
+import sys
+subprocess.run([sys.executable, "-m", "pip", "install", "plotly==5.24.1", "openpyxl==3.1.5"], check=True)
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
