@@ -1,4 +1,6 @@
 import streamlit as st
+st.write("App started")
+import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
 from pathlib import Path
